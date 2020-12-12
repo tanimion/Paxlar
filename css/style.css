@@ -111,3 +111,314 @@
   border: 1px solid #eb8f18;
   transition: 0.5s all ease-in-out;
 }
+
+.requirements {
+}
+
+.requirements-items {
+  border: 1px solid #e1e1e1;
+  padding: 30px 5px;
+  position: relative;
+}
+
+.requirements-items i {
+  color: #ff9b1a;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.requirements-items h3 {
+  color: #aaaaaa;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.requirements-items p,
+.services-heading p,
+.services-items p {
+  color: #aaaaaa;
+  font-size: 13px;
+}
+
+.requirements-items:hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cda107+0,e06402+100&0.9+1,0.9+100 */
+  background: -moz-linear-gradient(
+    top,
+    rgba(205, 161, 7, 0.9) 0%,
+    rgba(205, 160, 7, 0.9) 1%,
+    rgba(224, 100, 2, 0.9) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(205, 161, 7, 0.9) 0%,
+    rgba(205, 160, 7, 0.9) 1%,
+    rgba(224, 100, 2, 0.9) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(205, 161, 7, 0.9) 0%,
+    rgba(205, 160, 7, 0.9) 1%,
+    rgba(224, 100, 2, 0.9) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6cda107', endColorstr='#e6e06402',GradientType=0 ); /* IE6-9 */
+}
+
+.requirements-items:hover {
+  background-image: url(../images/bitcoin.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.requirements-items:hover i {
+  color: #fff;
+}
+
+.requirements-items:hover h3 {
+  color: #fff;
+}
+
+.requirements-items:hover p {
+  color: #fff;
+}
+
+.services {
+}
+
+.services-heading {
+  position: relative;
+}
+
+.services-heading::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  left: 50%;
+  bottom: -20px;
+  background: #ff9b1a;
+  transform: translateX(-50%);
+  transition: 0.5s all ease-in-out;
+}
+
+.services:hover .services-heading::before {
+  width: 50px;
+}
+
+.services-heading h3 {
+  text-transform: uppercase;
+  color: #2b2b2b;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.services-items h3 {
+  color: #2b2b2b;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.services-items i {
+  color: #ff9b1a;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.services a {
+  text-decoration: none;
+}
+
+.btn-view {
+  border-radius: 50px;
+  color: #2b2b2b;
+  padding: 9px 16px;
+  font-size: 14px;
+  text-transform: capitalize;
+  border: 1px solid #aaaaaa;
+  background: transparent;
+}
+
+.btn-view:hover {
+  background: #ff9b1a;
+  color: #2b2b2b;
+  border: 1px solid #eb8f18;
+  transition: 0.5s all ease-in-out;
+}
+
+.simple-steps {
+  background-image: url(../images/bitcoin-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.steps-image {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+}
+
+.steps-heading::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  left: 15px;
+  top: 50px;
+  background: #ff9b1a;
+  transition: 0.5s all ease-in-out;
+}
+
+.simple-steps:hover .steps-heading::before {
+  width: 50px;
+}
+
+.steps-heading h3 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.steps-content ul {
+  list-style: none;
+}
+
+.steps-content ul li {
+  margin-bottom: 48px;
+}
+
+.steps-content ul li span {
+  display: block;
+  height: 50px;
+  width: 50px;
+  background: transparent;
+  border: 2px solid #ff9b1a;
+  border-radius: 5px;
+  transform: rotate(45deg);
+  float: left;
+  margin-right: 45px;
+}
+
+.steps-content ul li h4 {
+  color: #fff;
+  font-size: 15px;
+}
+
+.steps-content ul li p {
+  color: #fff;
+  font-size: 13px;
+}
+
+.rating {
+  background: #ff9b1a;
+}
+
+.rating-content h3 {
+  color: #fff;
+  font-size: 25px;
+}
+
+.rating-content p {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.team {
+}
+
+.team:hover .services-heading::before {
+  width: 50px;
+}
+
+.team-image {
+}
+
+.team-content h5 {
+  font-size: 14px;
+  color: #1e1e1e;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.team-content p {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #ff9b1a;
+}
+
+.consultatioon-form {
+  background-image: url(../images/form-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.form-heading::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  left: 50%;
+  bottom: -20px;
+  background: #ff9b1a;
+  transform: translateX(-50%);
+  transition: 0.5s all ease-in-out;
+}
+
+.consultatioon-form:hover .form-heading::before {
+  width: 50px;
+}
+
+.custom-form {
+  background-color: transparent;
+}
+
+.custom-form input {
+  border-color: #fff;
+}
+
+.custom-form:focus {
+  background-color: transparent;
+  border-color: #fff;
+  box-shadow: none;
+}
+
+.custom-form::placeholder {
+  color: #fff;
+}
+
+.send a {
+  text-decoration: none;
+}
+
+.btn-send {
+  border-radius: 50px;
+  color: #fff;
+  padding: 9px 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.btn-send:hover {
+  background: #ff9b1a;
+  color: #fff;
+  border: 1px solid #eb8f18;
+  transition: 0.5s all ease-in-out;
+}
