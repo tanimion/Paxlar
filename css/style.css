@@ -836,8 +836,8 @@ hr {
   position: relative;
 }
 
-.form-control {
-  border-radius: 50px !important;
+.custom-form-control {
+  border-radius: 50px;
 }
 
 .newsletter-icon {
