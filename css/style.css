@@ -119,21 +119,29 @@
   border: 1px solid #e1e1e1;
   padding: 30px 5px;
   position: relative;
+  cursor: pointer;
 }
 
 .requirements-items i {
   color: #ff9b1a;
   font-size: 50px;
   margin-bottom: 15px;
+  position: relative;
 }
 
 .requirements-items h3 {
   color: #aaaaaa;
   font-size: 17px;
   text-transform: capitalize;
+  position: relative;
 }
 
-.requirements-items p,
+.requirements-items p {
+  color: #aaaaaa;
+  font-size: 13px;
+  position: relative;
+}
+
 .services-heading p,
 .services-items p,
 .blog-content p {
@@ -747,7 +755,7 @@ hr {
   transition: 0.5s all ease-in-out;
 }
 
-.contact-icon i:hover {
+.contact-icon:hover i {
   color: #00aced;
   transition: 0.5s all ease-in-out;
 }
